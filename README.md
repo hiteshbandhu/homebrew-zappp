@@ -1,15 +1,10 @@
-# Homebrew tap for zappp
+# This tap has moved
 
-[zappp](https://github.com/hiteshbandhu/zappp) — hold a key, talk, let go:
-on-device dictation for macOS on the Neural Engine.
+zappp is now in [hiteshbandhu/homebrew-tap](https://github.com/hiteshbandhu/homebrew-tap):
 
 ```bash
-brew install --cask hiteshbandhu/zappp/zappp
+brew install --cask hiteshbandhu/tap/zappp
 ```
 
-Requires Apple Silicon and macOS 14 or later. On first launch, zappp's welcome
-guide walks you through the Microphone, Input Monitoring and Accessibility
-permissions.
-
-Upgrade with `brew upgrade --cask zappp`. Remove everything, including
-downloaded models, with `brew uninstall --zap --cask zappp`.
+If you installed from here, `brew update` moves zappp to the new tap
+automatically. You can then remove this one with `brew untap hiteshbandhu/zappp`.
